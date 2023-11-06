@@ -1,0 +1,13 @@
+.style {
+  width: 480px;
+  height: 80px;
+  background: rgba(255, 255, 255, 0);
+  border: 1px solid #66b5ff;
+  border-radius: 10px;
+  margin: 5px;
+
+  &:hover {
+    background: #66b5ff;
+    cursor: pointer;
+  }
+}

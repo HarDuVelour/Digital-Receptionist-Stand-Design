@@ -1,0 +1,18 @@
+.style {
+  width: 465px; // or specify a fixed width, for example: 200px;
+  height: 50px;
+  background-color: #fff;
+  border: 1px solid #66b5ff;
+  border-radius: 8px;
+  color: #000;
+  font-size: 1rem;
+  font-weight: 700;
+  padding: 10px;
+  transition: all 0.3s ease-in-out;
+
+  &:focus {
+    outline: none;
+    background-color: aliceblue;
+    color: black;
+  }
+}
